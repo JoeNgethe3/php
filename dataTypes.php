@@ -50,7 +50,9 @@
 
         $p = "59.85" + 100;
 
-var_dump(is_numeric($p));
+        var_dump(is_numeric($p));
+        echo "<br>";
+        echo $a**2;
 
 
 

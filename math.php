@@ -1,12 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>PHP Maths</title>
-</head>
-<body>
+<?php include "header.php"; ?>
     <?php
         echo "=============pi, max and min, abs, sqrt,  are examples of php math================="; 
         echo "<br>";
@@ -20,7 +12,21 @@
         echo "<br>";
         echo (sqrt(67));
         echo "<br>";
-
+        echo (rand(0,100));
+        echo "<br>";
     ?>
-</body>
-</html>
+    <?php
+        //constants
+        define("GREETINGS", "hello Fleming Tech");
+        echo GREETINGS;
+        echo "<br>";
+        //CONSTANT arrays
+        define("cars",[
+            "Volvo",
+            "Mercedes",
+            "BMW"
+        ]);
+        echo cars[1];
+    ?>
+
+<?php include "footer.php"; ?>
