@@ -8,10 +8,19 @@ echo $x+$y;
 echo "<br>";
 //subtraction
 echo $x-$y;
+echo "<br>";
 // multiplication
+echo $x*$y;
+echo "<br>";
 // modulus
+echo $x%$y;
+echo "<br>";
 // exponential
+echo $x**$y;
+echo "<br>";
 //division
+echo $x/$y;
+echo "<br>";
 
 
 
