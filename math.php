@@ -27,6 +27,8 @@
             "BMW"
         ]);
         echo cars[1];
+        
     ?>
+    
 
 <?php include "footer.php"; ?>

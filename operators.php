@@ -12,7 +12,7 @@ echo "<br>";
 // multiplication
 echo $x*$y;
 echo "<br>";
-// modulus
+// modulus gives the remainder after division
 echo $x%$y;
 echo "<br>";
 // exponential
@@ -22,7 +22,9 @@ echo "<br>";
 echo $x/$y;
 echo "<br>";
 
-
+$name= "My name is Joe";
+$message = "I love PHP and thufu and waru";
+echo $name . $message;
 
 ?>
 

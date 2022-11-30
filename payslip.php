@@ -22,6 +22,7 @@
         $grossPay= $basic + $houseAllowance;
         $netPay= $grossPay-($tax+$nhif);
 
+        
         echo "======================PAYSLIP=======================";
         echo "<br>";
         echo "Basic Salary = $basic";
@@ -40,5 +41,6 @@
        
 
     ?>
+  
 </body>
 </html>
