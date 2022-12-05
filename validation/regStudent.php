@@ -43,11 +43,21 @@ function studentData($data){
         <option value="other">Other</option>
     </select> <br>
     <label for="course">Courses</label> <br>
-    <select name="course" id="course">
+    <!--<select name="course" id="course">
         <option value="arts">Arts</option>
         <option value="science">Science</option>
         <option value="languages">Languages</option>
-    </select>
+    </select>-->
+    <select name="course" id="course">
+        <optgroup label="arts">
+            <option value="fineArts">Fine Arts</option>
+            <option value="dance">Dance</option>
+        </optgroup>
+        <optgroup label="science">
+            <option value="cs">Computer Science</option>
+            <option value="asc">ASC</option>
+        </optgroup>
+</select>
     <input type="submit" value="Submit">
 
     
